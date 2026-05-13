@@ -1,0 +1,27 @@
+[project]
+name = "authorized-smb-phone-pipeline"
+version = "0.1.0"
+description = "Authorized nationwide SMB phone collection pipeline with franchise and compliance filtering."
+requires-python = ">=3.10"
+dependencies = [
+  "psycopg[binary]>=3.1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+]
+
+[project.scripts]
+smb-phone-pipeline = "smb_phone_pipeline.cli:main"
+
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["smb_phone_pipeline*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

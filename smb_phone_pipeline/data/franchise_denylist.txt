@@ -1,0 +1,44 @@
+# Seed denylist. Expand this with internal QA findings before large runs.
+7-eleven
+ace hardware
+applebee's
+arby's
+autozone
+best buy
+burger king
+carquest
+chick-fil-a
+chipotle
+costco
+cracker barrel
+domino's
+dollar general
+dollar tree
+dunkin
+family dollar
+firestone
+five guys
+home depot
+jiffy lube
+kfc
+little caesars
+lowe's
+mcdonald's
+midas
+napa auto parts
+o'reilly auto parts
+panera bread
+papa john's
+pep boys
+popeyes
+sonic drive-in
+starbucks
+subway
+taco bell
+target
+tractor supply
+u-haul
+valvoline
+walgreens
+walmart
+wendy's
