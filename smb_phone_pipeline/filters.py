@@ -21,8 +21,6 @@ NATIONAL_DOMAINS = {
     "facebook.com",
     "instagram.com",
     "linkedin.com",
-    "yelp.com",
-    "yellowpages.com",
     "mapquest.com",
     "google.com",
 }
