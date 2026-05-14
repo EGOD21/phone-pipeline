@@ -5,3 +5,4 @@ __pycache__/
 .pytest_cache/
 *.pyc
 *.egg-info/
+ApiHub-Recovery-codes.txt
