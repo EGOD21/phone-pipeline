@@ -6,3 +6,6 @@ __pycache__/
 *.pyc
 *.egg-info/
 ApiHub-Recovery-codes.txt
+
+# Dependencies
+node_modules
